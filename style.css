@@ -1,0 +1,40 @@
+/* reset html */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+}
+/* hesap makinesi genek ayarlar */
+table{
+    background-color: grey;
+    border: 2px solid black;
+    border-spacing: 10px;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+}
+table .btn{
+    width: 80px;
+    color: black;
+    background-color: rgb(190, 187, 187);
+    line-height: 300%;
+    font-size: 150%;
+}
+table .btn:hover{
+    cursor: pointer;
+    background-color: wheat;
+}
+#islem, #gosterge{
+    padding: 2%;
+    background-color: white;
+    text-align: right;
+
+}
+#islem{
+    height: 50px;
+    font-size: 200%;
+    line-height: 40px;
+}
