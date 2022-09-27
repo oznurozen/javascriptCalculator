@@ -1,0 +1,75 @@
+.header {
+  text-align: center;
+}
+body, html{
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  color: rgb(154, 220, 0);
+  font-size: 25px;
+}
+
+button {
+  color: white;
+  border: none;
+  background: none;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px 0 rgba(226, 198, 198, 0.2);
+}
+button:hover{
+  background: rgb(36, 2, 50);
+}
+.yellow{
+  color: #FFFF00;
+}
+.pink{
+  color: #F96666;
+}
+
+
+.calculator {
+  color: white;
+  width: 350px;
+  height: 600px;
+  margin:5% auto;
+  background-color: rgb(58, 6, 81);
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 5px 15px 0px rgba(58, 6, 0, 81.61);
+}
+
+
+.out-put {
+    text-align: right;
+    margin: 60px 30px 0;
+    font-size: 2.5rem;
+}
+
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  background: rgba(28, 1, 40, 0.5);
+  gap: 15px;
+  padding: 20px;
+}
+
+.keyboard-row {
+  display: flex;
+  gap: 15px;
+  
+}
+.one-block {
+    width: 25%;
+    aspect-ratio: 1/1;
+  }
+  .two-block {
+    width: calc(50% + 15px);
+    aspect-ratio: 2/1;
+  }
